@@ -1,0 +1,86 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+\title{Bayesian Network Structure Learning Methods: A Survey}
+\author{Jiaqi Yang}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Bayesian networks are a widely used graphical model with diverse applications in classification, prediction.To get the optimal Bayesian networks, lots of methods have been applied including ILP, Dynamic Programming, breadth-first BnB search, and A* searching. The running time and space used for learning a structure depend on the efficient of the algorithm applied, and also depend on how massive the dataset is. There are two main ways to get relation structure of an input dataset: local search and global search. As we can tell from the name, local search represents a method to find the local best Bayesian networks and the global search represents to find one of the optimal networks. Optimal networks are not limited to only one structure because if the input data is large enough, multiple best solutions with the same score can be optimal at the same time. Finding out one solution is good enough for the global search, while for local search running time would be improved but cannot guarantee the best outcome.\\
+
+Index Terms ---Bayesian Network, learning Bayesian structures, Score-based search.
+
+\end{abstract}
+
+\section{Introduction}
+Applying Bayesian networks to real-world problems typically requires building graphical representations of the problems. The probabilistic graphical model is applied for classification and prediction. One of the most popular method in last decades was DP, however it is usually out of time or space dealing with huge variables. Recently learning Bayesian networks is considered in several different ways, like formulating it as a shortest path searching optimization problem. 
+
+The score-based search methods to find high-scoring structures for given data [Cooper and Herskovits, 1992; Heckerman, 1998] is widely used. Since learning a Bayesian network from data is NP-hard even if the number of parents per vertex in the DAG is limited to two, early approaches are mostly approximation methods [Cooper and Herskovits, 1992; Friedman et al., 1999; Heckerman, 1998]. Unfortunately, the models found by local search methods are not with a good quality guarantee.
+
+Global search algorithms for learning a Bayesian network form data developed over the past several decades including dynamic programming[Koivisto and Sood, 2004; Silander and Myllymaki, 2006; Singh and Moore, 2005], integer linear programming, A* search, DFBnB search, and BFBnB search. For dynamic programming, the main idea is to solve small subproblems first and then apply the results to larger problems until a global learning problem is solved. However, these algorithms may be inefficient due to their need to fully evaluate an exponential solution space.
+
+A recent constraint-based depth-first BnB search algorithm [Peter van Beek and Hella-Franziska Hoffmann] was proposed to find a valid Bayesian network. This algorithm was shown to be very efficient than dynamic programming, and regular depth-first BnB search. We believe its symmetry-breaking models can be modified and then applied to other more complex algorithms; such a formulation will make the size of the search space more efficient. 
+
+In this survey, I will present a collection of studies on learning Bayesian networks from different angles of view. At the same time, I will demonstrate the development of some methods. The approaches are evaluated on a representative suite of benchmark data. I will compare the advantages and disadvantages of all the algorithms in the end. In my survey, basic Bayesian theory and three themes are listed in TABLE 1.
+
+
+\section{BACKGROUND}
+%
+There are not many surveys on learning Bayesian structure. Some of them collected papers which analyze a broad view of learning$^{[17]}$. While my survey focuses on the particular task of learning Bayesian network structure from fully observed data using a search-and-score approach in both global and local views.
+
+Score functions will be introduced in this section, and how the score-based searching for Bayesian networks defined as NP-hard problem will also be discussed here. After the background discussion, I will go to different type of algorithms in details.
+
+\subsection{Learning Networks and Score-based Functions }
+
+
+
+
+\subsection{Learning Networks and NP-Hard Problem }
+
+\section{Ordering-based local search }
+
+
+\section{Dynamic Programming}
+
+\section{Shortest-path Concept Search}
+
+\section{Comparison of Different Algorithms}
+\section{Future Directions}
+
+\begin{thebibliography}{99}
+\end{thebibliography}
+
+% \section*{Appendix}
+
+% The location, geological formation, landslides and the existing cracks in these two places can be observed in these pictures. 
+
+% \begin{figure}[!h]
+% \centering
+% \includegraphics[width=0.5\textwidth]{google_maps.png}
+% \caption{\label{fig:location_Bhimtar} Bhimtar on google maps.}
+% \end{figure}
+
+% \begin{figure}[!h]
+% \centering
+% \includegraphics[width=0.5\textwidth]{data_pts.png}
+% \caption{\label{fig:location_datapts} Places from where rock samples were taken (except point 3) during the survey.}
+% \end{figure}
+
+
+% \begin{figure}[!h]
+% \centering
+% \includegraphics[width=0.5\textwidth]{DMG.png}
+% \caption{\label{fig:location_DMG} Geo-morphological map of Bhimtar area, acquired from Department of Mines and Geology, Nepal.}
+% \end{figure}
+
+
+\end{document}
