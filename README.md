@@ -8,3 +8,6 @@ Process Report:
   * version_1.tex is the LaTex code so far, it will be added more contents later.
 * Topic exploration(Feb/28/2019):
   * topicExploration.pdf is presentation slides.
+  * Machine Learning of Bayesian Networks Using Constraint Programming.
+  * Learning Optimal Bayesian Networks Using A^* Search.
+  * Neural Combinatorial Optimization With Reinforcement Learning.
