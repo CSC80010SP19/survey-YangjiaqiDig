@@ -9,5 +9,5 @@ Process Report:
 * Topic exploration(Feb/28/2019):
   * topicExploration.pdf is presentation slides.
   * Machine Learning of Bayesian Networks Using Constraint Programming.
-  * Learning Optimal Bayesian Networks Using A^* Search.
+  * Learning Optimal Bayesian Networks Using A* Search.
   * Neural Combinatorial Optimization With Reinforcement Learning.
