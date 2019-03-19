@@ -11,3 +11,6 @@ Process Report:
   * Machine Learning of Bayesian Networks Using Constraint Programming.
   * Learning Optimal Bayesian Networks Using A* Search.
   * Neural Combinatorial Optimization With Reinforcement Learning.
+* Survey: The First Draft(Mar/21/2019):
+  *
+* Survey: The Second Draft(TBD):
