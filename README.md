@@ -14,7 +14,7 @@ Process Report:
 * Survey: The First Draft(Mar/21/2019):
   * A Bayesian Method for the Induction of Probabilistic Networks from Data.
   * Learning Bayesian Networks is NP-complete.
-  * Lage-smaple Learning Bayesian Networks is NP-hard.
+  * Large-smaple Learning Bayesian Networks is NP-hard.
   * Probabilistic Network Construction Using the Minimum Description Length Principle.
   * Learning Bayesian Networks: Search Methods and Experimental Results.
   * Learning Bayesian Network Structure from Massive Datasets: The "Sparse Candidate" Algorithm.
