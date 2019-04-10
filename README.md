@@ -12,5 +12,19 @@ Process Report:
   * Learning Optimal Bayesian Networks Using A* Search.
   * Neural Combinatorial Optimization With Reinforcement Learning.
 * Survey: The First Draft(Mar/21/2019):
-  * Upload later
-* Survey: The Second Draft(TBD):
+  * A Bayesian Method for the Induction of Probabilistic Networks from Data.
+  * Learning Bayesian Networks is NP-complete.
+  * Lage-smaple Learning Bayesian Networks is NP-hard.
+  * Probabilistic Network Construction Using the Minimum Description Length Principle.
+  * Learning Bayesian Networks: Search Methods and Experimental Results.
+  * Learning Bayesian Network Structure from Massive Datasets: The "Sparse Candidate" Algorithm.
+  * Ordering-based Search: A Simple and Effective Algorithm for Learning Bayesian Networks.
+  * Metaheuristics for Score-and-Search Bayesian Network Structure Learning.
+  * Exact Bayesian Structure Discovery in Bayesian Networks.
+  * Finding Optimal Bayesian Networks by Dynamic Programming
+  * Memory-Efficient Dynamic Programming for Learning Optimal Bayesian Network.
+  * Learning Optimal Bayesian Networks Using A* Search.
+  * Machine Learning of Bayesian Neworks Using Constraint Programming.
+  * Neural Combinatorial Optimization with Reinforcement Learning.
+* Survey: The Second Draft(April/11/2019):
+  * TBD
