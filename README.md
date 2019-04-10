@@ -24,7 +24,7 @@ Process Report:
   * Finding Optimal Bayesian Networks by Dynamic Programming
   * Memory-Efficient Dynamic Programming for Learning Optimal Bayesian Network.
   * Learning Optimal Bayesian Networks Using A* Search.
-  * Machine Learning of Bayesian Neworks Using Constraint Programming.
+  * Machine Learning of Bayesian Networks Using Constraint Programming.
   * Neural Combinatorial Optimization with Reinforcement Learning.
 * Survey: The Second Draft(April/11/2019):
   * TBD
