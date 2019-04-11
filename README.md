@@ -27,4 +27,8 @@ Process Report:
   * Machine Learning of Bayesian Networks Using Constraint Programming.
   * Neural Combinatorial Optimization with Reinforcement Learning.
 * Survey: The Second Draft(April/11/2019):
-  * TBD
+  * Learning Bayesian Belief Networks Based on the Minimum Description Length Principle.
+  * A Branch-and-Bound Algorithm for MDL Learning Bayesian Networks.
+  * Learning Optimal Bayesian Networks: A Shortest Path Perspective.
+  * Learning to Discover Sparse Graphical Models.
+  * Pointer Network.
